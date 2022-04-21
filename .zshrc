@@ -1,9 +1,9 @@
 # Brew
 [[ -x /opt/homebrew/bin/brew ]] && eval $(/opt/homebrew/bin/brew shellenv)
 
-# Dev stuff
+
 if [[ -z $SPIN ]]; then
-   
+   # Dev stuff
   export PATH=/usr/local/share/npm/bin:$PATH
   export PATH="/usr/local/opt/ruby/bin:$PATH"
   export PATH="/usr/local/share/chruby:$PATH"
@@ -16,6 +16,9 @@ if [[ -z $SPIN ]]; then
 
   # Syntax highlighting
   source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+else
+  # Syntax highlighting
+  source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
 #oh-my-zsh
