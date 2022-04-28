@@ -25,7 +25,7 @@ plugins=(git aliases rails ruby brew vscode)
 
 # Zsh
 source $ZSH/oh-my-zsh.sh
-source $HOME/.zshrc_theme
+# source $HOME/.zshrc_theme
 
 # User configuration
 
